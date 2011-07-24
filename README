@@ -1,0 +1,7 @@
+This script is easy to use. Just plug in the camera, and launch the script.
+Most is handled for you:
+for each photo that is on the camera, it will be retrieved. You will be asked under what name to save it, and in which directory.
+
+And at the end, you can choose to remove all photos from the camera or not.
+
+Requirements: evince, gphoto2 (should be easily modifiable to be used with equivalent tools).
