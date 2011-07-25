@@ -113,7 +113,7 @@ if ($remAll =~ /[yY]/) {
 	print "Removing everything\n";
 	foreach my $dir (keys %forDel) {
 		foreach my $file (1 .. %forDel{$_}) {
-			`gphoto2 --folder $dir --delete-file $file`;
+			`gphoto2 --folder $dir --delete-file 1`;
 		}
 	}
 }
